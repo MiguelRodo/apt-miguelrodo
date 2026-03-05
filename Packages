@@ -118,3 +118,27 @@ Description: Multi-repository management tool
  .
  Designed for any multi-repository workflow and project structure.
 
+Package: repos
+Version: 1.1.4
+Architecture: all
+Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
+Installed-Size: 169
+Depends: bash, git, curl, jq
+Filename: ./repos_1.1.4_all.deb
+Size: 34752
+MD5sum: 0fe574ad6b31dd5db6f5d705f72d42e8
+SHA1: f4fab4031c33e661390c275c3e2db1e7c8feb7f5
+SHA256: 6bb9c13024f4bd4594ee1c1bec4629385a36b3df983e366909fa580c63f81b24
+Section: utils
+Priority: optional
+Homepage: https://github.com/MiguelRodo/repos
+Description: Multi-repository management tool
+ This package provides infrastructure for managing multiple related repositories
+ as a unified workspace. It includes tools for:
+  - Cloning and managing multiple Git repositories
+  - Creating and managing Git worktrees
+  - Generating VS Code workspace configurations
+  - Running pipelines across repositories
+ .
+ Designed for any multi-repository workflow and project structure.
+
