@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 154
 Depends: bash, git, curl, jq
-Filename: ./repos_1.0.12_all.deb
+Filename: pool/main/r/repos_1.0.12_all.deb
 Size: 32026
 MD5sum: 201168409d7b4228ac8e2284e485eddc
 SHA1: 3dd1e2f1f377cbdcfb4641a213e3bd17c57231da
@@ -28,7 +28,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 162
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.0_all.deb
+Filename: pool/main/r/repos_1.1.0_all.deb
 Size: 34000
 MD5sum: 6110e7cb2a3a66336ff1cc3bbd53bbdb
 SHA1: 7e72f7befbdd6b2d1b60f64a8a3c09639c458ac0
@@ -52,7 +52,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 163
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.1_all.deb
+Filename: pool/main/r/repos_1.1.1_all.deb
 Size: 34078
 MD5sum: f13428f832b51e443134c06800b2585f
 SHA1: 76c636930f11a7b115cbe863d6962c7487a7e6b9
@@ -76,7 +76,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 175
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.10_all.deb
+Filename: pool/main/r/repos_1.1.10_all.deb
 Size: 35690
 MD5sum: 6be088e711888e417d103e79dd99bd06
 SHA1: 4f595ceb108d64047260543530586b94303d5acc
@@ -100,7 +100,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 177
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.11_all.deb
+Filename: pool/main/r/repos_1.1.11_all.deb
 Size: 36138
 MD5sum: 70bcd3bbc83ad856caec17b158dc8512
 SHA1: ad0072ea40df850fd6e8f68d8088a6557fa8d4bc
@@ -124,7 +124,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 178
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.12_all.deb
+Filename: pool/main/r/repos_1.1.12_all.deb
 Size: 36222
 MD5sum: 2408732ca7110eb3a651065a5505c938
 SHA1: 3e98c07056070356100fab4d9e4109702ba8ef2b
@@ -148,7 +148,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 178
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.13_all.deb
+Filename: pool/main/r/repos_1.1.13_all.deb
 Size: 36234
 MD5sum: 55b2f3369338762388beaa4f08804682
 SHA1: ce371a6cc9409eb2a925118adc15e0f2d5634883
@@ -172,7 +172,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 179
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.14_all.deb
+Filename: pool/main/r/repos_1.1.14_all.deb
 Size: 36314
 MD5sum: 5bb03303cffdb247fb134a61c130d034
 SHA1: cdd6acb04b14cea88eb08bbfde9d7b05495b1438
@@ -196,7 +196,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 180
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.15_all.deb
+Filename: pool/main/r/repos_1.1.15_all.deb
 Size: 36280
 MD5sum: fd101e0a8398e63a4f636edf85938bec
 SHA1: 7d606f9028f53e9bdeba294f01c5fadfe3fc8e75
@@ -220,7 +220,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 183
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.16_all.deb
+Filename: pool/main/r/repos_1.1.16_all.deb
 Size: 36814
 MD5sum: 9ea9686aa3f97f4393ffb9cf8c5ce884
 SHA1: ae30bfd2a3cbc1759c57680d1fe1c8aa746b3ca5
@@ -244,7 +244,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 164
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.2_all.deb
+Filename: pool/main/r/repos_1.1.2_all.deb
 Size: 34198
 MD5sum: 951555d030f530797c36c61b7038faa6
 SHA1: 64d1aea69a0b63bd9de74e0a6fa080b1ecb46860
@@ -268,7 +268,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 169
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.3_all.deb
+Filename: pool/main/r/repos_1.1.3_all.deb
 Size: 34706
 MD5sum: ccaa6dc074b2d0bf80631a5971fda01d
 SHA1: af925707d80b6a7c5abc4ca6810d2b7e4d134ce8
@@ -292,7 +292,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 169
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.4_all.deb
+Filename: pool/main/r/repos_1.1.4_all.deb
 Size: 34752
 MD5sum: 0fe574ad6b31dd5db6f5d705f72d42e8
 SHA1: f4fab4031c33e661390c275c3e2db1e7c8feb7f5
@@ -316,7 +316,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 169
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.5_all.deb
+Filename: pool/main/r/repos_1.1.5_all.deb
 Size: 34830
 MD5sum: 63d88cd36c3b354eae10afd91d18de2b
 SHA1: 446863635739791dd8db6f8b614412215622f605
@@ -340,7 +340,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 173
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.6_all.deb
+Filename: pool/main/r/repos_1.1.6_all.deb
 Size: 35200
 MD5sum: d4692a5f8d7643944a32be127e39c3fc
 SHA1: da4cada5e9a41cdfc38e6868fe4431af001cebdf
@@ -364,7 +364,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 174
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.7_all.deb
+Filename: pool/main/r/repos_1.1.7_all.deb
 Size: 35330
 MD5sum: a2f2dd215fa7e6706bac93bc13ff4846
 SHA1: 5d0dc624329033c6a4ac966f93918cc19dbfd4ad
@@ -388,7 +388,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 175
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.8_all.deb
+Filename: pool/main/r/repos_1.1.8_all.deb
 Size: 35574
 MD5sum: 56351c27bcedb2d309530cfdb226e56f
 SHA1: 7db587b8f68505c5b0fda2efdee112145b164034
@@ -412,7 +412,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 175
 Depends: bash, git, curl, jq
-Filename: ./repos_1.1.9_all.deb
+Filename: pool/main/r/repos_1.1.9_all.deb
 Size: 35626
 MD5sum: b4ba06b17fc00af9e50588090506ad65
 SHA1: d5589aa837da3c8ee3dc62d7db1057e8104eaa89
@@ -436,7 +436,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 183
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.0_all.deb
+Filename: pool/main/r/repos_1.2.0_all.deb
 Size: 36790
 MD5sum: 2136fcd90902cba747da03074b64355e
 SHA1: 15436399b103a0fc4e7e78ec26f4a129845f3d94
@@ -460,7 +460,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 183
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.2_all.deb
+Filename: pool/main/r/repos_1.2.2_all.deb
 Size: 36976
 MD5sum: 8778cddb6e43ee33281acbb847de8313
 SHA1: 5829382a7b5900ab78c1d8bfcd87220301f40d85
@@ -484,7 +484,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 184
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.3_all.deb
+Filename: pool/main/r/repos_1.2.3_all.deb
 Size: 37036
 MD5sum: 4725c8abc1c6819f9caed44110944512
 SHA1: 45adb1dde342ed23b4a7b0fbe4239716ce0a58b2
@@ -508,7 +508,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 187
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.4_all.deb
+Filename: pool/main/r/repos_1.2.4_all.deb
 Size: 37222
 MD5sum: 207911a034d3f32718c45ec2fcaf75b0
 SHA1: b901c00cc236d188c810e82dacf63f37a6751446
@@ -532,7 +532,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 188
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.5_all.deb
+Filename: pool/main/r/repos_1.2.5_all.deb
 Size: 37196
 MD5sum: 24cf67dd09259c4e2cfc07696afa9888
 SHA1: bdb1c6a34e2838995e5736edebd16968d6c41397
@@ -556,7 +556,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 189
 Depends: bash, git, curl, jq
-Filename: ./repos_1.2.6_all.deb
+Filename: pool/main/r/repos_1.2.6_all.deb
 Size: 37398
 MD5sum: 27c130ed2e8f7fe4204151501a50587e
 SHA1: 04c2befd40ca6a664bbfac4b63294762b4231535
@@ -580,7 +580,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 190
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.0_all.deb
+Filename: pool/main/r/repos_1.3.0_all.deb
 Size: 37442
 MD5sum: 0cc0e1785e2d9f27e2e9c31410f806ca
 SHA1: 5ca53dac4d41f3a67e4431b113ad91ed33af8417
@@ -604,7 +604,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 190
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.1_all.deb
+Filename: pool/main/r/repos_1.3.1_all.deb
 Size: 37450
 MD5sum: dd52b7ab534753c05f487edc9256a02b
 SHA1: 0a819f492ecdff5e41a1c1055713ad6720dc5e2c
@@ -628,7 +628,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 204
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.10_all.deb
+Filename: pool/main/r/repos_1.3.10_all.deb
 Size: 38722
 MD5sum: 3018ef74907dbcd51e589f5050ebc168
 SHA1: d2fcf49e628698aefc303e14cc8a186c19882c0c
@@ -652,7 +652,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 182
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.2_all.deb
+Filename: pool/main/r/repos_1.3.2_all.deb
 Size: 36224
 MD5sum: 01576bd409966dffdde11c05d4520eee
 SHA1: a7725644f3d94d327f2beb21bfff0605699f982c
@@ -676,7 +676,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 182
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.3_all.deb
+Filename: pool/main/r/repos_1.3.3_all.deb
 Size: 36212
 MD5sum: 99524bf1863ba5fe2e3ab9ab087ae4c4
 SHA1: ce9ca035b913f1d220f5088717d4a0c51e951655
@@ -700,7 +700,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 184
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.4_all.deb
+Filename: pool/main/r/repos_1.3.4_all.deb
 Size: 36346
 MD5sum: 7ee5dfef60d5e934342e0fe688abb83d
 SHA1: 2e0c0d4b815e4f2efed22070596ae6e7e8747213
@@ -724,7 +724,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 184
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.5_all.deb
+Filename: pool/main/r/repos_1.3.5_all.deb
 Size: 36370
 MD5sum: c46d948ef308bbd4ceddcea359603c37
 SHA1: 6f5abc218690d4f8ec0381569002f05706f36014
@@ -748,7 +748,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 185
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.6_all.deb
+Filename: pool/main/r/repos_1.3.6_all.deb
 Size: 36380
 MD5sum: 00a32a1b9450e18cdf2ea8bcb8610dd9
 SHA1: 8ec458b75597e751ef8b383925e70c16d52cbdb4
@@ -772,7 +772,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 193
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.7_all.deb
+Filename: pool/main/r/repos_1.3.7_all.deb
 Size: 36990
 MD5sum: 8a0448161a7e68b7ad08cfad4c06a3bf
 SHA1: a23c68de546929bc80172520626abe8dcdcc1c51
@@ -796,7 +796,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 193
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.8_all.deb
+Filename: pool/main/r/repos_1.3.8_all.deb
 Size: 37018
 MD5sum: 313141880efe5a6b2ff316bd0f8df77e
 SHA1: e35b98839af8511c579c03b205db611ecc98f4c0
@@ -820,7 +820,7 @@ Architecture: all
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Installed-Size: 199
 Depends: bash, git, curl, jq
-Filename: ./repos_1.3.9_all.deb
+Filename: pool/main/r/repos_1.3.9_all.deb
 Size: 37846
 MD5sum: 0822130f1f04e10f6e6996456b60e347
 SHA1: 19b084f7b8f8e20e96562924387c1efd82a1eda4
