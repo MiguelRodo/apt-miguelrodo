@@ -29,7 +29,9 @@ sudo apt-get update
   - `dists/stable/main/binary-amd64/Packages.gz`
   - `dists/stable/main/binary-arm64/Packages.gz`
   - `dists/stable/main/binary-all/Packages.gz`
-- Distribution metadata is published at `dists/stable/Release`
+- Signed distribution metadata is published at:
+  - `dists/stable/InRelease` (preferred)
+  - `dists/stable/Release` + `dists/stable/Release.gpg`
 
 ## Migration notes
 
