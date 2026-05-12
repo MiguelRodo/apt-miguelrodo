@@ -852,3 +852,17 @@ Priority: optional
 Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
 
+Package: repos
+Version: 2.0.12
+Architecture: amd64
+Maintainer: Miguel Rodo
+Installed-Size: 2828
+Filename: pool/main/r/repos_2.0.12_amd64.deb
+Size: 1266068
+MD5sum: 891edf4deb4a7bd4f4b03e60a8eca265
+SHA1: 967dbd805108c1db3d4b5dfeda6db45ca63132f7
+SHA256: dd95f44e10185850143d25241f5bbc640b1351258430dd9d724f05a2af30325e
+Priority: optional
+Homepage: https://github.com/MiguelRodo/repos
+Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
+
