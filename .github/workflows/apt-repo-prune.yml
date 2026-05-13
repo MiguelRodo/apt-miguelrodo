@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: MiguelRodo/actions/apt-repo-prune@v2
+      - uses: MiguelRodo/actions/apt-repo-prune@v2.14.0
         with:
           repo: MiguelRodo/apt-miguelrodo
           token: ${{ secrets.GITHUB_TOKEN }}
