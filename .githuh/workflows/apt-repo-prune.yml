@@ -1,0 +1,25 @@
+name: Prune APT Repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      retention:
+        description: 'Retention policy: latest | latest-per-minor | latest-per-major'
+        required: false
+        default: latest-per-major
+  schedule:
+    - cron: '0 3 * * 0'   # weekly on Sunday at 03:00 UTC
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: MiguelRodo/actions/apt-repo-prune@v2
+        with:
+          repo: MiguelRodo/apt-miguelrodo
+          token: ${{ secrets.GITHUB_TOKEN }}
+          retention: ${{ inputs.retention || 'latest-per-major' }}
+          apt_signing_key: ${{ secrets.APT_SIGNING_KEY }}
+          apt_signing_key_passphrase: ${{ secrets.APT_SIGNING_KEY_PASSPHRASE }}
