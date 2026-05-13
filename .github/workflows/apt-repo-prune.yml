@@ -14,11 +14,10 @@ jobs:
   prune:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: MiguelRodo/actions/apt-repo-prune@v2
         with:
-          repo: MiguelRodo/apt-miguelrodo
           token: ${{ secrets.GITHUB_TOKEN }}
           retention: ${{ inputs.retention || 'latest-per-major' }}
           apt_signing_key: ${{ secrets.APT_SIGNING_KEY }}
