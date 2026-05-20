@@ -38,3 +38,18 @@ Priority: optional
 Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
 
+Package: setupmjr
+Version: 0.0.2
+Architecture: amd64
+Maintainer: Miguel Rodo
+Installed-Size: 6024
+Depends: bash
+Filename: pool/main/s/setupmjr_0.0.2_amd64.deb
+Size: 2625836
+MD5sum: 0104fcbb524909ea0153c8fbb188faf8
+SHA1: 1c10c876f76cef0ca228edcaaa35c6027d36c4bd
+SHA256: 7259a06164e5a449bf069803507d480eb8ac60512236c6e683e9e742ff3c6157
+Priority: optional
+Homepage: https://github.com/MiguelRodo/setupmjr
+Description: Cross-platform setup utility
+
