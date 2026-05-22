@@ -38,6 +38,22 @@ Priority: optional
 Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
 
+Package: repos
+Version: 2.6.0
+Architecture: arm64
+Maintainer: Miguel Rodo
+Installed-Size: 2624
+Depends: git
+Recommends: gh
+Filename: pool/main/r/repos_2.6.0_arm64.deb
+Size: 1100854
+MD5sum: 11773654c35d442604c751f9e6e03d9c
+SHA1: f0e996cbf9c6a68019bc541fd75eb4e8eb991e0e
+SHA256: eacd1d8ef749f31331d66e95aaf589c6b0d38b60a96153db7ea36bd4191f04d8
+Priority: optional
+Homepage: https://github.com/MiguelRodo/repos
+Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
+
 Package: setupmjr
 Version: 0.0.2
 Architecture: arm64
