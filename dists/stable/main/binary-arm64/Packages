@@ -23,22 +23,6 @@ Description: Multi-repository management tool
  Designed for any multi-repository workflow and project structure.
 
 Package: repos
-Version: 2.5.5
-Architecture: arm64
-Maintainer: Miguel Rodo
-Installed-Size: 2816
-Depends: git
-Recommends: gh
-Filename: pool/main/r/repos_2.5.5_arm64.deb
-Size: 1187720
-MD5sum: f0827da2a29db7a1ac08d926877d20ad
-SHA1: 71cedab8c3b5d4955b6659b01a4f9f3fdec325f7
-SHA256: c6c4b4a84e82734f4dcc30e68a1081cb555ff68b33f6bab41c1b7d025c519856
-Priority: optional
-Homepage: https://github.com/MiguelRodo/repos
-Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
-
-Package: repos
 Version: 2.6.0
 Architecture: arm64
 Maintainer: Miguel Rodo
@@ -53,51 +37,6 @@ SHA256: eacd1d8ef749f31331d66e95aaf589c6b0d38b60a96153db7ea36bd4191f04d8
 Priority: optional
 Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
-
-Package: setupmjr
-Version: 0.0.2
-Architecture: arm64
-Maintainer: Miguel Rodo
-Installed-Size: 5696
-Depends: bash
-Filename: pool/main/s/setupmjr_0.0.2_arm64.deb
-Size: 2396966
-MD5sum: 27b3b1a7e30540e833d481beba7ae01c
-SHA1: d08a8f80faf35e1dbf9303e2310a85bb3c1dcd6c
-SHA256: 7a5c95dc78414dc4f037e0518bd23e6f6e424ced4c4f99975f59665daaf2ec0c
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
-
-Package: setupmjr
-Version: 0.1.0
-Architecture: arm64
-Maintainer: Miguel Rodo
-Installed-Size: 5696
-Depends: bash
-Filename: pool/main/s/setupmjr_0.1.0_arm64.deb
-Size: 2395208
-MD5sum: 4fe87fdc499c2dfc354d9e0382576fb5
-SHA1: 591c88cf6063a96bbc8156989620c4d9cc8c1dd2
-SHA256: e9d3ce52ebde0bac7d4d0c67b55caa2afbbf0f8f883fcd3a150c1b85fd4c59d0
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
-
-Package: setupmjr
-Version: 0.2.0
-Architecture: arm64
-Maintainer: Miguel Rodo
-Installed-Size: 5696
-Depends: bash
-Filename: pool/main/s/setupmjr_0.2.0_arm64.deb
-Size: 2396998
-MD5sum: 1c3fd6f11c7de7502bbbc2b54801aa92
-SHA1: 02cd10d53c38156a56d23ff705685110fb0d3f5d
-SHA256: 529608256a92bcc501369d6f94d0b91cb13969befed7250ebc2f1029ea98f717
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
 
 Package: setupmjr
 Version: 0.4.0
