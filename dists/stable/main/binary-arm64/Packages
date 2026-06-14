@@ -23,22 +23,6 @@ Description: Multi-repository management tool
  Designed for any multi-repository workflow and project structure.
 
 Package: repos
-Version: 2.6.1
-Architecture: arm64
-Maintainer: Miguel Rodo
-Installed-Size: 2624
-Depends: git
-Recommends: gh
-Filename: pool/main/r/repos_2.6.1_arm64.deb
-Size: 1100854
-MD5sum: 67e3e9da7d0b5d9ba7425d8ea9ba315d
-SHA1: bea2c129440c38ebf2eff6492a1cbeefc8e59e78
-SHA256: ae8e26f74fd5273d8a4a10e3e5d3e50fd92661ffd19c435e039be5a1a03aac4c
-Priority: optional
-Homepage: https://github.com/MiguelRodo/repos
-Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
-
-Package: repos
 Version: 2.7.0
 Architecture: arm64
 Maintainer: Miguel Rodo
