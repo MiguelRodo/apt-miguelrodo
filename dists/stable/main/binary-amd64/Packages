@@ -23,22 +23,6 @@ Description: Multi-repository management tool
  Designed for any multi-repository workflow and project structure.
 
 Package: repos
-Version: 2.7.0
-Architecture: amd64
-Maintainer: Miguel Rodo
-Installed-Size: 2596
-Depends: git
-Recommends: gh
-Filename: pool/main/r/repos_2.7.0_amd64.deb
-Size: 1178510
-MD5sum: 6dc9ead31a39a3027536a579534e0fa9
-SHA1: 553eb6144efa44862d65317cad5fbb5d7b57db70
-SHA256: c2ecc6ed83bd0b07db3d0044c908fd6b6d2d13940e843ef757c72ed2c11f8bac
-Priority: optional
-Homepage: https://github.com/MiguelRodo/repos
-Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
-
-Package: repos
 Version: 2.7.1
 Architecture: amd64
 Maintainer: Miguel Rodo
@@ -53,21 +37,6 @@ SHA256: 663de753f71b2f18060e0db4da61f221efbc0d0420e02a7be91cc812edced8d6
 Priority: optional
 Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
-
-Package: setupmjr
-Version: 0.6.1
-Architecture: amd64
-Maintainer: Miguel Rodo
-Installed-Size: 6396
-Depends: bash, repos
-Filename: pool/main/s/setupmjr_0.6.1_amd64.deb
-Size: 2792490
-MD5sum: e59bd7f9c378ede89b068ca7507a2f3e
-SHA1: 83bf046bdcc267ed03693e3e4cf1c8a1599cd472
-SHA256: 377c0bcef4eb33016adcbb59b884c1f3ff188357368360af89e7402ef83c0f5e
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
 
 Package: setupmjr
 Version: 0.6.2
