@@ -1,20 +1,4 @@
 Package: projects
-Version: 0.1.1
-Architecture: amd64
-Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
-Installed-Size: 2780
-Recommends: gh
-Filename: pool/main/p/projects_0.1.1_amd64.deb
-Size: 1249216
-MD5sum: 822ec14910b420cf71ca5f5ab92dbf99
-SHA1: a1ee8ccc9ec1fb06d43a9f7504fa67bcf9b3eba4
-SHA256: ac6938de4e0c1c6759961d42a42b48ffd7da7699a35c809f933805f7d948e4c0
-Section: utils
-Priority: optional
-Homepage: https://github.com/MiguelRodo/projects
-Description: Deterministic CLI backend for GitHub issue and Project administration
-
-Package: projects
 Version: 0.2.0
 Architecture: amd64
 Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
