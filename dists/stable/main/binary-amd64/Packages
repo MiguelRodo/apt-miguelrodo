@@ -115,3 +115,18 @@ Priority: optional
 Homepage: https://github.com/MiguelRodo/setupmjr
 Description: Cross-platform setup utility
 
+Package: setupmjr
+Version: 0.7.2
+Architecture: amd64
+Maintainer: Miguel Rodo
+Installed-Size: 6448
+Depends: bash, repos
+Filename: pool/main/s/setupmjr_0.7.2_amd64.deb
+Size: 2815406
+MD5sum: 541a17094913cdf26879d13553e35b37
+SHA1: bef489c321ecdd8f23ee09d183bcbf3eefadd02c
+SHA256: afb4faccc35cb5b8411c400218847a08604f9aaa8c84eff16a89d99f65de1562
+Priority: optional
+Homepage: https://github.com/MiguelRodo/setupmjr
+Description: Cross-platform setup utility
+
