@@ -1,0 +1,62 @@
+name: Import pj Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/import-pj-release.yml'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'pj release version (e.g. v0.1.1); blank means latest'
+        required: false
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Checkout shared APT publisher
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: MiguelRodo/actions
+          ref: 509750b862eeec82bd7596b81bca13b2bdfbcc3a
+          path: _release-actions
+          persist-credentials: false
+
+      - name: Download released pj Debian package
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          version="${REQUESTED_VERSION:-}"
+          if [ -z "$version" ]; then
+            version="$(curl -fsSL https://api.github.com/repos/MiguelRodo/pj/releases/latest | jq -r .tag_name)"
+          fi
+          version="${version#v}"
+          mkdir -p dist
+          curl -fL \
+            "https://github.com/MiguelRodo/pj/releases/download/v${version}/pj_${version}_all.deb" \
+            -o "dist/pj_${version}_all.deb"
+          echo "PJ_VERSION=$version" >> "$GITHUB_ENV"
+
+      - name: Install APT metadata tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apt-utils dpkg-dev
+
+      - name: Publish package into this APT repository
+        env:
+          APT_REPO_INPUT: MiguelRodo/apt-miguelrodo
+          APT_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN_INPUT: ${{ secrets.GITHUB_TOKEN }}
+          APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
+          APT_SIGNING_KEY_PASSPHRASE: ${{ secrets.APT_SIGNING_KEY_PASSPHRASE }}
+          TAG: v${{ env.PJ_VERSION }}
+        run: bash _release-actions/scripts/publish-apt-repository.sh
