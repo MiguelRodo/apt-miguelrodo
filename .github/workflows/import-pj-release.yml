@@ -58,5 +58,6 @@ jobs:
           GITHUB_TOKEN_INPUT: ${{ secrets.GITHUB_TOKEN }}
           APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
           APT_SIGNING_KEY_PASSPHRASE: ${{ secrets.APT_SIGNING_KEY_PASSPHRASE }}
-          TAG: v${{ env.PJ_VERSION }}
-        run: bash _release-actions/scripts/publish-apt-repository.sh
+        run: |
+          export TAG="v${PJ_VERSION}"
+          bash _release-actions/scripts/publish-apt-repository.sh
