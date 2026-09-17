@@ -1,3 +1,18 @@
+Package: pj
+Version: 0.1.1
+Architecture: all
+Maintainer: Miguel Rodo
+Installed-Size: 47
+Depends: bash, git
+Filename: pool/main/p/pj_0.1.1_all.deb
+Size: 14098
+MD5sum: 3460e69d12884414a2afeb7c579a1637
+SHA1: 5f41a2a68a997a942e07d4efaba1ef39f71e1eca
+SHA256: 38551a8e29e915fe1abe5e3dacf3289b0c8e1021156a0f8ac7028b275d52ba97
+Priority: optional
+Homepage: https://github.com/MiguelRodo/pj
+Description: Local operator launcher and managed-project maintenance tooling
+
 Package: projects
 Version: 0.3.0
 Architecture: arm64
