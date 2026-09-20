@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: MiguelRodo/actions/apt-repo-prune@ea8f8df62048a1ae56a1e99a58580a0ac05b8e41 # v2.43.0
+      - uses: MiguelRodo/actions/apt-repo-prune@bf850afe48d42ac221079cfede39021d0574c15a # v3.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           retention: ${{ inputs.retention || 'latest-per-major' }}
