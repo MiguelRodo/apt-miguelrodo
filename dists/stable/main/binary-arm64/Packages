@@ -77,6 +77,22 @@ Priority: optional
 Homepage: https://github.com/MiguelRodo/github-projects-skill
 Description: Deterministic CLI backend for GitHub issue and Project administration
 
+Package: projects
+Version: 0.4.5
+Architecture: arm64
+Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
+Installed-Size: 6592
+Recommends: gh
+Filename: pool/main/p/projects_0.4.5_arm64.deb
+Size: 2769158
+MD5sum: 858753de0f7ab33c2bec9c62c2f6a359
+SHA1: 927976fd4aa0fc357181cf59c7cd5e7fa967cdb5
+SHA256: 722075f4cbb81ad0f8f397cc54f2facf88d03af656825321dedaaf1ca9cbce96
+Section: utils
+Priority: optional
+Homepage: https://github.com/MiguelRodo/github-projects-skill
+Description: Deterministic CLI backend for GitHub issue and Project administration
+
 Package: repos
 Version: 1.3.10
 Architecture: all
