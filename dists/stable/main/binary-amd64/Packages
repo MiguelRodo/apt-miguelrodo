@@ -14,54 +14,6 @@ Homepage: https://github.com/MiguelRodo/pj
 Description: Local operator launcher and managed-project maintenance tooling
 
 Package: projects
-Version: 0.4.7
-Architecture: amd64
-Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
-Installed-Size: 7196
-Recommends: gh
-Filename: pool/main/p/projects_0.4.7_amd64.deb
-Size: 3071570
-MD5sum: beb810f10092acaf296ce0dc03f64c29
-SHA1: 18119d942edaf9ac837bf4fed1133cbd42b5c0c7
-SHA256: 97c300bb59833e743964c9143767814e541728e8da75464f9ac384f55f1a43c5
-Section: utils
-Priority: optional
-Homepage: https://github.com/MiguelRodo/github-projects-skill
-Description: Deterministic CLI backend for GitHub issue and Project administration
-
-Package: projects
-Version: 0.5.0
-Architecture: amd64
-Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
-Installed-Size: 7216
-Recommends: gh
-Filename: pool/main/p/projects_0.5.0_amd64.deb
-Size: 3077244
-MD5sum: f1ce808fa3876bed8ed007cb0ba7e698
-SHA1: 6c5140b95ba36ff6f41ba1047876ab892a3b7019
-SHA256: 0fff53063445557175d204b98ecd3d4849bfbe937aaf49e1664925a22c406f02
-Section: utils
-Priority: optional
-Homepage: https://github.com/MiguelRodo/github-projects-skill
-Description: Deterministic CLI backend for GitHub issue and Project administration
-
-Package: projects
-Version: 0.5.1
-Architecture: amd64
-Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
-Installed-Size: 7220
-Recommends: gh
-Filename: pool/main/p/projects_0.5.1_amd64.deb
-Size: 3081112
-MD5sum: 7b1051f3e5fbe8ff1821ee102024e5ff
-SHA1: 9f0adf57a17599978347c5fd930ef461414ed342
-SHA256: b1fd7a480e1bc0ee2c24209ef34be9fb58618f4762c55bced375fc38a278ff67
-Section: utils
-Priority: optional
-Homepage: https://github.com/MiguelRodo/github-projects-skill
-Description: Deterministic CLI backend for GitHub issue and Project administration
-
-Package: projects
 Version: 0.6.0
 Architecture: amd64
 Maintainer: MiguelRodo <23501332+MiguelRodo@users.noreply.github.com>
