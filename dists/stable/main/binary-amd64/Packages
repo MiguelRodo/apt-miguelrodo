@@ -70,51 +70,6 @@ Homepage: https://github.com/MiguelRodo/repos
 Description: Cross-platform CLI for managing multiple related Git repositories as a unified workspace
 
 Package: setupmjr
-Version: 0.8.0
-Architecture: amd64
-Maintainer: Miguel Rodo
-Installed-Size: 7236
-Depends: bash, repos
-Filename: pool/main/s/setupmjr_0.8.0_amd64.deb
-Size: 3159346
-MD5sum: b7d35923896fa96eae502d6bab9edd2f
-SHA1: a6d1a72268daddc088138821d0ae115f3581907c
-SHA256: a3fd4d88516af98e4060bb14798f0874df0b84d39124df28d30449acd5be84ff
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
-
-Package: setupmjr
-Version: 0.9.0
-Architecture: amd64
-Maintainer: Miguel Rodo
-Installed-Size: 7256
-Depends: bash, repos
-Filename: pool/main/s/setupmjr_0.9.0_amd64.deb
-Size: 3165664
-MD5sum: b0850e21eb3b595cd992212b88df9b26
-SHA1: 924b28872e9fb35d0acec0b8564a821a1aa3f4a3
-SHA256: e5d90e7343947578a8cef40f30f882137649ad53b95f9d63805fcc2dd0e7f4ce
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
-
-Package: setupmjr
-Version: 0.9.1
-Architecture: amd64
-Maintainer: Miguel Rodo
-Installed-Size: 7256
-Depends: bash, repos
-Filename: pool/main/s/setupmjr_0.9.1_amd64.deb
-Size: 3165596
-MD5sum: 46ec787e4022d40043fce1d6db14bb5d
-SHA1: 65c1853bae953ebda2cf28ad9bf0e0b9b6ad59d4
-SHA256: 798d738977598607094d802559282fb6a8c4a19bcd89d64882577f6859a7b9c5
-Priority: optional
-Homepage: https://github.com/MiguelRodo/setupmjr
-Description: Cross-platform setup utility
-
-Package: setupmjr
 Version: 0.9.2
 Architecture: amd64
 Maintainer: Miguel Rodo
